@@ -9,5 +9,8 @@ eureka:
   client:
     registerWithEureka: false
     fetchRegistry: false
+    service-url:
+      defaultZone: http://localhost:8302/eureka
     server:
       waitTimeInMsWhenSyncEmpty: 0
+      maxThreadsForPeerReplication: 0
