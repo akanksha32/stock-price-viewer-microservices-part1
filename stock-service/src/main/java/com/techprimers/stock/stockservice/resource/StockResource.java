@@ -12,6 +12,7 @@ import org.springframework.web.client.RestTemplate;
 import yahoofinance.Stock;
 import yahoofinance.YahooFinance;
 
+import java.math.BigDecimal;
 import java.io.IOException;
 import java.util.List;
 import java.util.stream.Collectors;
